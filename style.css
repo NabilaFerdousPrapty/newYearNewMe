@@ -154,5 +154,33 @@ word-wrap: break-word;
     margin-left: 30px;
 }
 .positive-mindset{
-    background-image: url("images/gradient1.png"),url("watch.png");
+    position: relative;
+}
+.mindset-text{
+    background-image: linear-gradient(to right,rgba(134, 55, 24, 0.777),rgba(121, 104, 92, 0)),url(images/watch.png);
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: auto;
+     border-radius: 8px;
+    
+}
+.mindset-text h2{
+    max-width: 600px;
+    color: white;
+    margin-bottom: 10px;
+font-size: 40px;
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word;
+}
+.call-now{
+    background-color: white;
+    padding: 10px 20px;
+    color: #F15B22;
+font-size: 20px;
+font-family: Work Sans;
+font-weight: 600;
+word-wrap: break-word;
+border: 0;
+border-radius: 2px;
 }
