@@ -41,10 +41,11 @@ word-wrap: break-word;
 }
 
 .btn-primary{
+    margin-left: 400px;
     text-align: center;
     border: 0;
     background-color: #F15B22;
-    padding: 10px 18px;
+    padding: 13px 18px;
     color: white;
     border-radius: 5px;
 font-size: 20px;
@@ -104,8 +105,9 @@ word-wrap: break-word;
     justify-content: space-between;
     align-items:baseline;
     max-width: 1000px;
-    margin: 0, auto;
-    padding: 0 30px;
+    margin: 0 auto;
+    padding-left:  60px;
+    /* padding-left: 30px; */
 }
 .title{
     text-align: center;
@@ -126,6 +128,10 @@ img{
     max-width: 60px;
     
 
+}
+
+.my-plans{
+    margin-left: 30px;
 }
 .plan{
     padding: 5px;
@@ -155,6 +161,7 @@ word-wrap: break-word;
 }
 .positive-mindset{
     position: relative;
+    margin-bottom: 100px;
 }
 .mindset-text{
     background-image: linear-gradient(to right,rgba(134, 55, 24, 0.777),rgba(121, 104, 92, 0)),url(images/watch.png);
@@ -183,4 +190,79 @@ font-weight: 600;
 word-wrap: break-word;
 border: 0;
 border-radius: 2px;
+}
+.my-intro{
+    background-image: linear-gradient(to right,rgba(216, 80, 27, 0.777),rgba(229, 161, 94, 0));
+    padding: 80px;
+    margin: auto;
+     border-radius: 8px;
+     color: #F8F8F8;
+
+}
+.my-intro h2 h3{
+    font-size: 30px;
+}
+.my-intro p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* future section */
+footer{
+    background-color: #151414;
+}
+.footer-wraper{
+   
+    max-width: 540px;
+}
+
+.future{
+    color: #F8F8F8;
+
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word;
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.future-title{
+    padding-left: 45px;
+font-size: 45px;
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word;
+padding-bottom: 16px;
+
+}
+.future-description,.future-email,.future-phone{
+    padding-left: 45px;
+    
+font-size: 16px;
+font-family: Work Sans;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word;
+}
+.future-icons{
+    padding-top: 20px;
+
+}
+input{
+    height: 50px;
+}
+.email{
+    background-color: #151414;
+    padding-left: 50px;
+    width: 100%;
+    border: 1px white solid;
+}
+.subscribe{
+    margin-top: 10px;
+    border-radius: 5px;
 }
